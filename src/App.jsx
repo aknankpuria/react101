@@ -19,7 +19,6 @@ const App = () => {
       const data = await response.json();
       SetMovies(data.Search);
    }
-
    useEffect(() => { searchMovies(''); }, []);
 
    return (
