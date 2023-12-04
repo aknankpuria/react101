@@ -40,7 +40,6 @@ const App = () => {
 
             />
          </div>
-
          {
             movies?.length > 0
                ? <div className="container">
